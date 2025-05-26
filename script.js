@@ -10,3 +10,7 @@ function makeGrid(size){
     }
 }
 makeGrid(16);
+
+cdiv.addEventListener('mouseover', (e) =>{
+    e.target.style.backgroundColor = 'black';
+})
